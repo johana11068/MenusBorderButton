@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itm_options"
+        android:title="@string/itm_str_options"
+        android:icon="@drawable/pony"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/itm_close"
+        android:title="@string/itm_str_close"
+        android:icon="@drawable/pony"/>
+
+    <item
+        android:id="@+id/itm_close2"
+        android:title="@string/itm_str_more"
+        android:icon="@drawable/pony"/>
+
+</menu>
