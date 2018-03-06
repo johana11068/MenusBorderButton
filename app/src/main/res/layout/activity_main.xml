@@ -5,11 +5,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.johanita.menusborderbutton.MainActivity">
+    tools:context="com.johanita.menusborderbutton.MainActivity"
+    android:orientation="vertical">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hola"
         android:theme="@style/RaisedButtonDark"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pony"
+        android:theme="@style/RaisedButtonDark"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola Mundo"
+        android:theme="@style/RaisedButtonDark"
+        android:drawableLeft="@drawable/pony"
+        android:drawablePadding="5dp"/>
 </LinearLayout>
