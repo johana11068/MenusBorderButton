@@ -6,8 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.johanita.menusborderbutton.MainActivity"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    android:padding="10dp">
+<!--
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,4 +28,32 @@
         android:theme="@style/RaisedButtonDark"
         android:drawableLeft="@drawable/pony"
         android:drawablePadding="5dp"/>
+    -->
+
+    <!--<android.support.design.widget.CoordinatorLayout
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/pony"
+        android:layout_margin="16dp"/>
+        -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border_item"
+        android:padding="30dp"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J¿Hola Mundo"/>
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorPrimaryDark"></View>
+
 </LinearLayout>
